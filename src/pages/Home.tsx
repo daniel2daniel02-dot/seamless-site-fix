@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -253,5 +253,3 @@ function PriceCard({ tag, title, price, period, subtitle, features, cta, highlig
   );
 }
 
-// keep useState import used (for potential expansion) — referenced via hooks above
-void useState;
