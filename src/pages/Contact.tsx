@@ -7,10 +7,51 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Mail, Phone, MapPin, Clock, Loader2 } from "lucide-react";
 
+type SubmitStatus = "success" | "error" | null;
+
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [status, setStatus] = useState<SubmitStatus>(null);
+
   useEffect(() => {
     document.title = "Kontakt — NordPixel";
   }, []);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setStatus(null);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mdavnqgn", {
+        method: "POST",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({ name, email, phone, message }),
+      });
+
+      if (response.ok) {
+        setStatus("success");
+        setName("");
+        setEmail("");
+        setPhone("");
+        setMessage("");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
     <div className="container mx-auto px-4 py-20 md:py-28">
