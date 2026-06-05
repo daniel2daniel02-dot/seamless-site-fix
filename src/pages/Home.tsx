@@ -83,20 +83,20 @@ export default function Home() {
   return (
     <div>
       {/* HERO */}
-      <section className="bg-[#f1f5fb]">
-        <div className="container mx-auto px-4 py-20 md:py-28">
-          <div className="max-w-3xl">
+      <section className="bg-gradient-to-br from-[#e8f0fb] via-[#f1f5fb] to-[#dbeafe]">
+        <div className="container mx-auto px-4 py-20 md:py-28 grid lg:grid-cols-2 gap-12 items-center">
+          <div>
             <span className="inline-block px-4 py-1.5 rounded-full bg-white border border-[#e2e8f0] text-xs font-semibold text-[#2563eb]">
               Twoja strona. Twój sukces.
             </span>
-            <h1 className="mt-6 text-5xl md:text-7xl font-bold tracking-tight leading-[1.05] text-[#0f172a]">
-              Profesjonalne strony<br />internetowe dla<br />Twojego biznesu
+            <h1 className="mt-6 text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] text-[#0f172a]">
+              Profesjonalne strony internetowe dla Twojego biznesu
             </h1>
-            <p className="mt-6 text-lg text-[#64748b] max-w-2xl">
+            <p className="mt-6 text-lg text-[#64748b] max-w-xl">
               Tworzymy wizytówki i strony dla restauracji, kawiarni, barów, pomocy drogowej i wielu innych — szybko, przystępnie i z pełnym wsparciem.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Button asChild size="lg" variant="hero">
+              <Button asChild size="lg" variant="gradient">
                 <Link to="/contact">Zamów stronę <ArrowRight className="ml-1 w-4 h-4" /></Link>
               </Button>
               <Button asChild size="lg" variant="pill">
@@ -105,9 +105,55 @@ export default function Home() {
             </div>
             <dl className="mt-14 grid grid-cols-3 gap-8 max-w-lg">
               <div><dt className="text-3xl md:text-4xl font-bold text-[#0f172a]">50+</dt><dd className="text-xs text-[#64748b] mt-1">Zrealizowanych projektów</dd></div>
-              <div><dt className="text-3xl md:text-4xl font-bold text-[#0f172a]">7–14</dt><dd className="text-xs text-[#64748b] mt-1">Dni do uruchomienia</dd></div>
-              <div><dt className="text-3xl md:text-4xl font-bold text-[#0f172a]">100%</dt><dd className="text-xs text-[#64748b] mt-1">Mobile-first</dd></div>
+              <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">7–14</dt><dd className="text-xs text-[#64748b] mt-1">Dni do uruchomienia</dd></div>
+              <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">100%</dt><dd className="text-xs text-[#64748b] mt-1">Mobile-first</dd></div>
             </dl>
+          </div>
+
+          {/* Right column: phone + browser illustration */}
+          <div className="relative hidden lg:block h-[520px]">
+            {/* Lighthouse badge */}
+            <div className="absolute top-4 right-4 z-20 bg-white rounded-2xl px-5 py-3 shadow-[var(--shadow-elegant)] border border-[#e2e8f0]">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-[#2563eb]">Lighthouse</p>
+              <p className="text-3xl font-bold text-[#0f172a]">98<span className="text-sm text-[#64748b]">/100</span></p>
+            </div>
+
+            {/* Browser window */}
+            <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[340px] h-[240px] rounded-2xl bg-white border border-[#e2e8f0] shadow-[0_30px_60px_-20px_rgba(37,99,235,0.25)] overflow-hidden">
+              <div className="h-7 bg-[#f1f5fb] border-b border-[#e2e8f0] flex items-center gap-1.5 px-3">
+                <span className="w-2 h-2 rounded-full bg-[#ef4444]" />
+                <span className="w-2 h-2 rounded-full bg-[#f59e0b]" />
+                <span className="w-2 h-2 rounded-full bg-[#10b981]" />
+              </div>
+              <div className="p-4 space-y-2">
+                <div className="h-3 w-2/3 rounded bg-gradient-to-r from-[#2563eb] to-[#38bdf8]" />
+                <div className="h-2 w-full rounded bg-[#e2e8f0]" />
+                <div className="h-2 w-5/6 rounded bg-[#e2e8f0]" />
+                <div className="mt-4 grid grid-cols-3 gap-2">
+                  <div className="h-16 rounded-lg bg-gradient-to-br from-[#e8f0fb] to-[#dbeafe]" />
+                  <div className="h-16 rounded-lg bg-gradient-to-br from-[#e8f0fb] to-[#dbeafe]" />
+                  <div className="h-16 rounded-lg bg-gradient-to-br from-[#e8f0fb] to-[#dbeafe]" />
+                </div>
+              </div>
+            </div>
+
+            {/* Phone */}
+            <div className="absolute left-8 top-1/2 -translate-y-1/2 w-[200px] h-[400px] rounded-[2.5rem] bg-gradient-to-br from-[#0f172a] to-[#1e293b] p-2.5 shadow-[0_40px_80px_-20px_rgba(15,23,42,0.45)] rotate-[-6deg]">
+              <div className="w-full h-full rounded-[2rem] bg-gradient-to-br from-[#dbeafe] via-[#e8f0fb] to-white relative overflow-hidden">
+                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-16 h-4 rounded-full bg-[#0f172a]" />
+                <div className="p-4 pt-8 space-y-2">
+                  <div className="h-2 w-1/2 rounded bg-[#2563eb]" />
+                  <div className="h-3 w-full rounded bg-[#0f172a]/80" />
+                  <div className="h-3 w-4/5 rounded bg-[#0f172a]/80" />
+                  <div className="mt-4 h-20 rounded-xl bg-gradient-to-br from-[#2563eb] to-[#38bdf8]" />
+                  <div className="mt-3 space-y-1.5">
+                    <div className="h-2 w-full rounded bg-[#e2e8f0]" />
+                    <div className="h-2 w-3/4 rounded bg-[#e2e8f0]" />
+                  </div>
+                  <div className="mt-3 h-8 rounded-full bg-[#0f172a]" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
