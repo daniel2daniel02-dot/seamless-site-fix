@@ -56,10 +56,10 @@ export default function Contact() {
 
   const labelCls = "block text-[11px] font-bold uppercase tracking-wider text-[#38bdf8] mb-2";
   const inputCls =
-    "w-full h-11 px-4 rounded-lg bg-[#0d1f3c] border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-[#38bdf8] transition-colors";
+    "w-full h-11 px-4 rounded-lg bg-[#0d1c2e] border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-[#38bdf8] transition-colors";
 
   return (
-    <section className="bg-[#0d1f3c] text-white">
+    <section className="bg-[#0d1c2e] text-white">
       <div className="container mx-auto px-4 py-20 md:py-28">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#38bdf8]">Kontakt</p>
@@ -81,7 +81,7 @@ export default function Contact() {
                 { Icon: Clock, label: "Pn–Pt 9:00–18:00" },
               ].map((row, i) => (
                 <li key={i} className="flex items-center gap-4">
-                  <span className="w-10 h-10 rounded-lg bg-[#1e293b] flex items-center justify-center shrink-0">
+                  <span className="w-10 h-10 rounded-lg bg-[#122540] flex items-center justify-center shrink-0">
                     <row.Icon className="w-5 h-5 text-[#38bdf8]" />
                   </span>
                   {row.href ? (
@@ -95,7 +95,7 @@ export default function Contact() {
               ))}
             </ul>
 
-            <div className="mt-10 p-8 rounded-2xl bg-[#1e293b] border border-white/5">
+            <div className="mt-10 p-8 rounded-2xl bg-[#122540] border border-white/5">
               <p className="text-5xl font-bold text-[#38bdf8]">24h</p>
               <p className="text-sm text-white/70 mt-2">
                 Średni czas odpowiedzi na zapytania ofertowe.
@@ -104,7 +104,7 @@ export default function Contact() {
           </div>
 
           {/* RIGHT - FORM */}
-          <div className="p-8 rounded-2xl bg-[#1e293b] border border-white/5">
+          <div className="p-8 rounded-2xl bg-[#122540] border border-white/5">
             <form className="space-y-5" onSubmit={handleSubmit}>
               <div className="grid sm:grid-cols-2 gap-5">
                 <div>
@@ -175,7 +175,7 @@ export default function Contact() {
                   id="msg"
                   required
                   rows={5}
-                  className="w-full px-4 py-3 rounded-lg bg-[#0d1f3c] border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-[#38bdf8] transition-colors resize-y"
+                  className="w-full px-4 py-3 rounded-lg bg-[#0d1c2e] border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-[#38bdf8] transition-colors resize-y"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />

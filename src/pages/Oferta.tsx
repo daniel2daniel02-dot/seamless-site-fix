@@ -12,7 +12,7 @@ export default function Oferta() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="eyebrow">Cennik</p>
-          <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Nasza oferta</h1>
+          <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Nasza oferta</h1>
           <p className="mt-4 text-[#64748b]">Przejrzyste pakiety dopasowane do Twoich potrzeb.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 items-start max-w-6xl mx-auto">
@@ -99,7 +99,7 @@ function PriceCard({
       <div
         className={`p-8 rounded-2xl flex flex-col h-full ${
           highlight
-            ? "bg-[#0d1f3c] text-white border border-[#0d1f3c] shadow-[var(--shadow-elegant)] md:scale-[1.03]"
+            ? "bg-[#0d1c2e] text-white border border-[#0d1c2e] shadow-[var(--shadow-elegant)] md:scale-[1.03]"
             : "bg-white border border-[#e2e8f0] shadow-[var(--shadow-card)]"
         }`}
       >
@@ -110,11 +110,11 @@ function PriceCard({
         >
           {tag}
         </span>
-        <h3 className={`mt-6 text-2xl font-bold ${highlight ? "text-white" : "text-[#0d1f3c]"}`}>
+        <h3 className={`mt-6 text-2xl font-bold ${highlight ? "text-white" : "text-[#0d1c2e]"}`}>
           {title}
         </h3>
         <p className="mt-6 flex items-baseline gap-2">
-          <span className={`text-5xl font-bold ${highlight ? "text-white" : "text-[#0d1f3c]"}`}>{price}</span>
+          <span className={`text-5xl font-bold ${highlight ? "text-white" : "text-[#0d1c2e]"}`}>{price}</span>
           {period && (
             <span className={`text-sm ${highlight ? "text-white/70" : "text-[#64748b]"}`}>{period}</span>
           )}
@@ -124,12 +124,12 @@ function PriceCard({
             <li key={f} className="flex items-start gap-3 text-sm">
               <span
                 className={`mt-0.5 w-5 h-5 rounded-full flex items-center justify-center shrink-0 ${
-                  highlight ? "bg-[#38bdf8] text-[#0d1f3c]" : "bg-[#2563eb] text-white"
+                  highlight ? "bg-[#38bdf8] text-[#0d1c2e]" : "bg-[#2563eb] text-white"
                 }`}
               >
                 <Check className="w-3 h-3" strokeWidth={3} />
               </span>
-              <span className={highlight ? "text-white/90" : "text-[#0d1f3c]"}>{f}</span>
+              <span className={highlight ? "text-white/90" : "text-[#0d1c2e]"}>{f}</span>
             </li>
           ))}
         </ul>
@@ -137,8 +137,8 @@ function PriceCard({
           to="/kontakt"
           className={`mt-8 inline-flex items-center justify-center h-12 rounded-full font-semibold transition-all ${
             highlight
-              ? "bg-white text-[#0d1f3c] hover:bg-white/90"
-              : "bg-[#0d1f3c] text-white hover:bg-[#1e293b]"
+              ? "bg-white text-[#0d1c2e] hover:bg-white/90"
+              : "bg-[#0d1c2e] text-white hover:bg-[#122540]"
           }`}
         >
           {cta}

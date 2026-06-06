@@ -23,7 +23,7 @@ export default function Faq() {
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-12">
           <p className="eyebrow">FAQ</p>
-          <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Najczęściej zadawane pytania</h1>
+          <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Najczęściej zadawane pytania</h1>
           <p className="mt-4 text-[#64748b]">Masz pytanie? Pewnie znajdziesz tu odpowiedź.</p>
         </div>
         <div className="space-y-3">
@@ -38,7 +38,7 @@ export default function Faq() {
                   onClick={() => setOpenFaq(isOpen ? null : i)}
                   className="w-full px-6 py-5 flex items-center justify-between text-left"
                 >
-                  <span className="font-bold text-[#0d1f3c]">{f.q}</span>
+                  <span className="font-bold text-[#0d1c2e]">{f.q}</span>
                   <span
                     className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ml-4 ${
                       isOpen ? "bg-[#2563eb] text-white" : "bg-[#e8f0fb] text-[#2563eb]"
