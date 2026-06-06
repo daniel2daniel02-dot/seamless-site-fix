@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-[#e2e8f0]">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 font-bold text-lg text-[#0d1f3c]">
+        <Link to="/" className="flex items-center gap-2 font-bold text-lg text-[#0d1c2e]">
           <Cloud className="w-6 h-6 text-[#2563eb]" />
           NordPixel
         </Link>
@@ -28,7 +28,7 @@ export default function Navbar() {
               to={l.to}
               end={l.end}
               className={({ isActive }) =>
-                `transition-colors ${isActive ? "text-[#2563eb]" : "text-[#0d1f3c] hover:text-[#2563eb]"}`
+                `transition-colors ${isActive ? "text-[#2563eb]" : "text-[#0d1c2e] hover:text-[#2563eb]"}`
               }
             >
               {l.label}
@@ -36,7 +36,7 @@ export default function Navbar() {
           ))}
         </nav>
         <div className="hidden md:flex items-center gap-3">
-          <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-[#e2e8f0] text-xs font-semibold text-[#0d1f3c]">
+          <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-[#e2e8f0] text-xs font-semibold text-[#0d1c2e]">
             <span className="text-[#2563eb] text-[10px]">PL</span> PL
           </span>
           <Button asChild variant="navy" size="default">
@@ -44,7 +44,7 @@ export default function Navbar() {
           </Button>
         </div>
         <button
-          className="md:hidden text-[#0d1f3c]"
+          className="md:hidden text-[#0d1c2e]"
           onClick={() => setOpen(!open)}
           aria-label="Menu"
         >
@@ -59,7 +59,7 @@ export default function Navbar() {
               to={l.to}
               end={l.end}
               onClick={() => setOpen(false)}
-              className={({ isActive }) => (isActive ? "text-[#2563eb]" : "text-[#0d1f3c]")}
+              className={({ isActive }) => (isActive ? "text-[#2563eb]" : "text-[#0d1c2e]")}
             >
               {l.label}
             </NavLink>

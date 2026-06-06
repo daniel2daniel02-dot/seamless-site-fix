@@ -42,7 +42,7 @@ export default function Home() {
             <span className="inline-block px-4 py-1.5 rounded-full bg-white border border-[#e2e8f0] text-xs font-semibold text-[#2563eb]">
               Twoja strona. Twój sukces.
             </span>
-            <h1 className="mt-6 text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] text-[#0d1f3c]">
+            <h1 className="mt-6 text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] text-[#0d1c2e]">
               Profesjonalne strony internetowe dla Twojego biznesu
             </h1>
             <p className="mt-6 text-lg text-[#64748b] max-w-xl">
@@ -57,7 +57,7 @@ export default function Home() {
               </Button>
             </div>
             <dl className="mt-14 grid grid-cols-3 gap-8 max-w-lg">
-              <div><dt className="text-3xl md:text-4xl font-bold text-[#0d1f3c]">50+</dt><dd className="text-xs text-[#64748b] mt-1">Zrealizowanych projektów</dd></div>
+              <div><dt className="text-3xl md:text-4xl font-bold text-[#0d1c2e]">50+</dt><dd className="text-xs text-[#64748b] mt-1">Zrealizowanych projektów</dd></div>
               <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">7–14</dt><dd className="text-xs text-[#64748b] mt-1">Dni do uruchomienia</dd></div>
               <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">100%</dt><dd className="text-xs text-[#64748b] mt-1">Mobile-first</dd></div>
             </dl>
@@ -67,7 +67,7 @@ export default function Home() {
           <div className="relative hidden lg:block h-[520px]">
             <div className="absolute top-4 right-4 z-20 bg-white rounded-2xl px-5 py-3 shadow-[var(--shadow-elegant)] border border-[#e2e8f0]">
               <p className="text-[10px] font-bold uppercase tracking-widest text-[#2563eb]">Lighthouse</p>
-              <p className="text-3xl font-bold text-[#0d1f3c]">98<span className="text-sm text-[#64748b]">/100</span></p>
+              <p className="text-3xl font-bold text-[#0d1c2e]">98<span className="text-sm text-[#64748b]">/100</span></p>
             </div>
 
             <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[340px] h-[240px] rounded-2xl bg-white border border-[#e2e8f0] shadow-[0_30px_60px_-20px_rgba(37,99,235,0.25)] overflow-hidden">
@@ -88,19 +88,19 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="absolute left-8 top-1/2 -translate-y-1/2 w-[200px] h-[400px] rounded-[2.5rem] bg-gradient-to-br from-[#0d1f3c] to-[#1e293b] p-2.5 shadow-[0_40px_80px_-20px_rgba(13,31,60,0.45)] rotate-[-6deg]">
+            <div className="absolute left-8 top-1/2 -translate-y-1/2 w-[200px] h-[400px] rounded-[2.5rem] bg-gradient-to-br from-[#0d1c2e] to-[#122540] p-2.5 shadow-[0_40px_80px_-20px_rgba(13,31,60,0.45)] rotate-[-6deg]">
               <div className="w-full h-full rounded-[2rem] bg-gradient-to-br from-[#dbeafe] via-[#e8f0fb] to-white relative overflow-hidden">
-                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-16 h-4 rounded-full bg-[#0d1f3c]" />
+                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-16 h-4 rounded-full bg-[#0d1c2e]" />
                 <div className="p-4 pt-8 space-y-2">
                   <div className="h-2 w-1/2 rounded bg-[#2563eb]" />
-                  <div className="h-3 w-full rounded bg-[#0d1f3c]/80" />
-                  <div className="h-3 w-4/5 rounded bg-[#0d1f3c]/80" />
+                  <div className="h-3 w-full rounded bg-[#0d1c2e]/80" />
+                  <div className="h-3 w-4/5 rounded bg-[#0d1c2e]/80" />
                   <div className="mt-4 h-20 rounded-xl bg-gradient-to-br from-[#2563eb] to-[#38bdf8]" />
                   <div className="mt-3 space-y-1.5">
                     <div className="h-2 w-full rounded bg-[#e2e8f0]" />
                     <div className="h-2 w-3/4 rounded bg-[#e2e8f0]" />
                   </div>
-                  <div className="mt-3 h-8 rounded-full bg-[#0d1f3c]" />
+                  <div className="mt-3 h-8 rounded-full bg-[#0d1c2e]" />
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <p className="eyebrow">Dlaczego NordPixel</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Dlaczego my?</h2>
+            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Dlaczego my?</h2>
             <p className="mt-4 text-[#64748b]">Cztery powody, dla których warto z nami pracować.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -128,7 +128,7 @@ export default function Home() {
                 >
                   <f.icon className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="font-bold text-lg text-[#0d1f3c]">{f.title}</h3>
+                <h3 className="font-bold text-lg text-[#0d1c2e]">{f.title}</h3>
                 <p className="text-sm text-[#2563eb]/70 mt-2">{f.desc}</p>
               </div>
             ))}
@@ -141,7 +141,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <p className="eyebrow">Proces</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Jak działamy?</h2>
+            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Jak działamy?</h2>
             <p className="mt-4 text-[#64748b]">Cztery proste kroki do Twojej nowej strony.</p>
           </div>
           <div className="relative grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-4 max-w-5xl mx-auto">
@@ -152,11 +152,11 @@ export default function Home() {
                   <div className="w-20 h-20 rounded-full bg-white border-2 border-[#38bdf8]/50 flex items-center justify-center shadow-sm">
                     <s.icon className="w-7 h-7 text-[#2563eb]" />
                   </div>
-                  <span className="absolute -top-1 -right-1 w-7 h-7 rounded-full bg-[#0d1f3c] text-white text-xs font-bold flex items-center justify-center">
+                  <span className="absolute -top-1 -right-1 w-7 h-7 rounded-full bg-[#0d1c2e] text-white text-xs font-bold flex items-center justify-center">
                     {s.n}
                   </span>
                 </div>
-                <h3 className="mt-6 font-bold text-[#0d1f3c]">{s.t}</h3>
+                <h3 className="mt-6 font-bold text-[#0d1c2e]">{s.t}</h3>
                 <p className="mt-2 text-sm text-[#64748b] max-w-[200px]">{s.d}</p>
               </div>
             ))}
