@@ -56,10 +56,10 @@ export default function Contact() {
 
   const labelCls = "block text-[11px] font-bold uppercase tracking-wider text-[#38bdf8] mb-2";
   const inputCls =
-    "w-full h-11 px-4 rounded-lg bg-[#0f172a] border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-[#38bdf8] transition-colors";
+    "w-full h-11 px-4 rounded-lg bg-[#0d1f3c] border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-[#38bdf8] transition-colors";
 
   return (
-    <section className="bg-[#0f172a] text-white">
+    <section className="bg-[#0d1f3c] text-white">
       <div className="container mx-auto px-4 py-20 md:py-28">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#38bdf8]">Kontakt</p>
@@ -175,7 +175,7 @@ export default function Contact() {
                   id="msg"
                   required
                   rows={5}
-                  className="w-full px-4 py-3 rounded-lg bg-[#0f172a] border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-[#38bdf8] transition-colors resize-y"
+                  className="w-full px-4 py-3 rounded-lg bg-[#0d1f3c] border border-white/10 text-white placeholder:text-white/40 focus:outline-none focus:border-[#38bdf8] transition-colors resize-y"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />

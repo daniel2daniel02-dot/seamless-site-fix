@@ -89,7 +89,7 @@ export default function Home() {
             <span className="inline-block px-4 py-1.5 rounded-full bg-white border border-[#e2e8f0] text-xs font-semibold text-[#2563eb]">
               Twoja strona. Twój sukces.
             </span>
-            <h1 className="mt-6 text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] text-[#0f172a]">
+            <h1 className="mt-6 text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] text-[#0d1f3c]">
               Profesjonalne strony internetowe dla Twojego biznesu
             </h1>
             <p className="mt-6 text-lg text-[#64748b] max-w-xl">
@@ -104,7 +104,7 @@ export default function Home() {
               </Button>
             </div>
             <dl className="mt-14 grid grid-cols-3 gap-8 max-w-lg">
-              <div><dt className="text-3xl md:text-4xl font-bold text-[#0f172a]">50+</dt><dd className="text-xs text-[#64748b] mt-1">Zrealizowanych projektów</dd></div>
+              <div><dt className="text-3xl md:text-4xl font-bold text-[#0d1f3c]">50+</dt><dd className="text-xs text-[#64748b] mt-1">Zrealizowanych projektów</dd></div>
               <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">7–14</dt><dd className="text-xs text-[#64748b] mt-1">Dni do uruchomienia</dd></div>
               <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">100%</dt><dd className="text-xs text-[#64748b] mt-1">Mobile-first</dd></div>
             </dl>
@@ -115,7 +115,7 @@ export default function Home() {
             {/* Lighthouse badge */}
             <div className="absolute top-4 right-4 z-20 bg-white rounded-2xl px-5 py-3 shadow-[var(--shadow-elegant)] border border-[#e2e8f0]">
               <p className="text-[10px] font-bold uppercase tracking-widest text-[#2563eb]">Lighthouse</p>
-              <p className="text-3xl font-bold text-[#0f172a]">98<span className="text-sm text-[#64748b]">/100</span></p>
+              <p className="text-3xl font-bold text-[#0d1f3c]">98<span className="text-sm text-[#64748b]">/100</span></p>
             </div>
 
             {/* Browser window */}
@@ -138,19 +138,19 @@ export default function Home() {
             </div>
 
             {/* Phone */}
-            <div className="absolute left-8 top-1/2 -translate-y-1/2 w-[200px] h-[400px] rounded-[2.5rem] bg-gradient-to-br from-[#0f172a] to-[#1e293b] p-2.5 shadow-[0_40px_80px_-20px_rgba(15,23,42,0.45)] rotate-[-6deg]">
+            <div className="absolute left-8 top-1/2 -translate-y-1/2 w-[200px] h-[400px] rounded-[2.5rem] bg-gradient-to-br from-[#0d1f3c] to-[#1e293b] p-2.5 shadow-[0_40px_80px_-20px_rgba(15,23,42,0.45)] rotate-[-6deg]">
               <div className="w-full h-full rounded-[2rem] bg-gradient-to-br from-[#dbeafe] via-[#e8f0fb] to-white relative overflow-hidden">
-                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-16 h-4 rounded-full bg-[#0f172a]" />
+                <div className="absolute top-2 left-1/2 -translate-x-1/2 w-16 h-4 rounded-full bg-[#0d1f3c]" />
                 <div className="p-4 pt-8 space-y-2">
                   <div className="h-2 w-1/2 rounded bg-[#2563eb]" />
-                  <div className="h-3 w-full rounded bg-[#0f172a]/80" />
-                  <div className="h-3 w-4/5 rounded bg-[#0f172a]/80" />
+                  <div className="h-3 w-full rounded bg-[#0d1f3c]/80" />
+                  <div className="h-3 w-4/5 rounded bg-[#0d1f3c]/80" />
                   <div className="mt-4 h-20 rounded-xl bg-gradient-to-br from-[#2563eb] to-[#38bdf8]" />
                   <div className="mt-3 space-y-1.5">
                     <div className="h-2 w-full rounded bg-[#e2e8f0]" />
                     <div className="h-2 w-3/4 rounded bg-[#e2e8f0]" />
                   </div>
-                  <div className="mt-3 h-8 rounded-full bg-[#0f172a]" />
+                  <div className="mt-3 h-8 rounded-full bg-[#0d1f3c]" />
                 </div>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <p className="eyebrow">Dlaczego NordPixel</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0f172a]">Dlaczego my?</h2>
+            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Dlaczego my?</h2>
             <p className="mt-4 text-[#64748b]">Cztery powody, dla których warto z nami pracować.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -178,7 +178,7 @@ export default function Home() {
                 >
                   <f.icon className="w-6 h-6 text-white" />
                 </div>
-                <h3 className="font-bold text-lg text-[#0f172a]">{f.title}</h3>
+                <h3 className="font-bold text-lg text-[#0d1f3c]">{f.title}</h3>
                 <p className="text-sm text-[#2563eb]/70 mt-2">{f.desc}</p>
               </div>
             ))}
@@ -191,7 +191,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <p className="eyebrow">Proces</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0f172a]">Jak działamy?</h2>
+            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Jak działamy?</h2>
             <p className="mt-4 text-[#64748b]">Cztery proste kroki do Twojej nowej strony.</p>
           </div>
           <div className="relative grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-4 max-w-5xl mx-auto">
@@ -203,11 +203,11 @@ export default function Home() {
                   <div className="w-20 h-20 rounded-full bg-white border-2 border-[#38bdf8]/50 flex items-center justify-center shadow-sm">
                     <s.icon className="w-7 h-7 text-[#2563eb]" />
                   </div>
-                  <span className="absolute -top-1 -right-1 w-7 h-7 rounded-full bg-[#0f172a] text-white text-xs font-bold flex items-center justify-center">
+                  <span className="absolute -top-1 -right-1 w-7 h-7 rounded-full bg-[#0d1f3c] text-white text-xs font-bold flex items-center justify-center">
                     {s.n}
                   </span>
                 </div>
-                <h3 className="mt-6 font-bold text-[#0f172a]">{s.t}</h3>
+                <h3 className="mt-6 font-bold text-[#0d1f3c]">{s.t}</h3>
                 <p className="mt-2 text-sm text-[#64748b] max-w-[200px]">{s.d}</p>
               </div>
             ))}
@@ -220,7 +220,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <p className="eyebrow">Cennik</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0f172a]">Nasza oferta</h2>
+            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Nasza oferta</h2>
             <p className="mt-4 text-[#64748b]">Przejrzyste pakiety dopasowane do Twoich potrzeb.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6 items-start max-w-6xl mx-auto">
@@ -279,7 +279,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-10">
             <p className="eyebrow">Portfolio</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0f172a]">Nasze realizacje</h2>
+            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Nasze realizacje</h2>
             <p className="mt-4 text-[#64748b]">Zobacz wybrane projekty, które zrealizowaliśmy dla naszych klientów.</p>
           </div>
           <div className="flex justify-center gap-3 mb-10 flex-wrap">
@@ -289,8 +289,8 @@ export default function Home() {
                 onClick={() => setFilter(f.id)}
                 className={`px-5 py-2 rounded-full text-sm font-medium transition-all ${
                   filter === f.id
-                    ? "bg-[#0f172a] text-white"
-                    : "bg-[#f1f5fb] text-[#0f172a] hover:bg-[#e8f0fb]"
+                    ? "bg-[#0d1f3c] text-white"
+                    : "bg-[#f1f5fb] text-[#0d1f3c] hover:bg-[#e8f0fb]"
                 }`}
               >
                 {f.label}
@@ -304,13 +304,13 @@ export default function Home() {
                 className="rounded-2xl bg-white border border-[#e2e8f0] overflow-hidden shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1"
               >
                 <div className="h-64 bg-gradient-to-br from-[#e8f0fb] to-[#dbeafe] flex items-center justify-center">
-                  <p.Icon className="w-24 h-24 text-[#0f172a]" strokeWidth={1.5} />
+                  <p.Icon className="w-24 h-24 text-[#0d1f3c]" strokeWidth={1.5} />
                 </div>
                 <div className="p-6">
                   <span className="inline-block px-3 py-1 rounded-full bg-[#e8f0fb] text-[#2563eb] text-xs font-semibold">
                     {p.tag}
                   </span>
-                  <h3 className="mt-3 text-xl font-bold text-[#0f172a]">{p.title}</h3>
+                  <h3 className="mt-3 text-xl font-bold text-[#0d1f3c]">{p.title}</h3>
                   <p className="text-sm text-[#64748b] mt-2">{p.desc}</p>
                   <a
                     href={p.href}
@@ -332,7 +332,7 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-3xl">
           <div className="text-center mb-12">
             <p className="eyebrow">FAQ</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0f172a]">Najczęściej zadawane pytania</h2>
+            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1f3c]">Najczęściej zadawane pytania</h2>
             <p className="mt-4 text-[#64748b]">Masz pytanie? Pewnie znajdziesz tu odpowiedź.</p>
           </div>
           <div className="space-y-3">
@@ -347,7 +347,7 @@ export default function Home() {
                     onClick={() => setOpenFaq(isOpen ? null : i)}
                     className="w-full px-6 py-5 flex items-center justify-between text-left"
                   >
-                    <span className="font-bold text-[#0f172a]">{f.q}</span>
+                    <span className="font-bold text-[#0d1f3c]">{f.q}</span>
                     <span
                       className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ml-4 ${
                         isOpen ? "bg-[#2563eb] text-white" : "bg-[#e8f0fb] text-[#2563eb]"
@@ -400,7 +400,7 @@ function PriceCard({
       <div
         className={`p-8 rounded-2xl flex flex-col h-full ${
           highlight
-            ? "bg-[#0f172a] text-white border border-[#0f172a] shadow-[var(--shadow-elegant)] md:scale-[1.03]"
+            ? "bg-[#0d1f3c] text-white border border-[#0d1f3c] shadow-[var(--shadow-elegant)] md:scale-[1.03]"
             : "bg-white border border-[#e2e8f0] shadow-[var(--shadow-card)]"
         }`}
       >
@@ -411,11 +411,11 @@ function PriceCard({
         >
           {tag}
         </span>
-        <h3 className={`mt-6 text-2xl font-bold ${highlight ? "text-white" : "text-[#0f172a]"}`}>
+        <h3 className={`mt-6 text-2xl font-bold ${highlight ? "text-white" : "text-[#0d1f3c]"}`}>
           {title}
         </h3>
         <p className="mt-6 flex items-baseline gap-2">
-          <span className={`text-5xl font-bold ${highlight ? "text-white" : "text-[#0f172a]"}`}>{price}</span>
+          <span className={`text-5xl font-bold ${highlight ? "text-white" : "text-[#0d1f3c]"}`}>{price}</span>
           {period && (
             <span className={`text-sm ${highlight ? "text-white/70" : "text-[#64748b]"}`}>{period}</span>
           )}
@@ -425,12 +425,12 @@ function PriceCard({
             <li key={f} className="flex items-start gap-3 text-sm">
               <span
                 className={`mt-0.5 w-5 h-5 rounded-full flex items-center justify-center shrink-0 ${
-                  highlight ? "bg-[#38bdf8] text-[#0f172a]" : "bg-[#2563eb] text-white"
+                  highlight ? "bg-[#38bdf8] text-[#0d1f3c]" : "bg-[#2563eb] text-white"
                 }`}
               >
                 <Check className="w-3 h-3" strokeWidth={3} />
               </span>
-              <span className={highlight ? "text-white/90" : "text-[#0f172a]"}>{f}</span>
+              <span className={highlight ? "text-white/90" : "text-[#0d1f3c]"}>{f}</span>
             </li>
           ))}
         </ul>
@@ -438,8 +438,8 @@ function PriceCard({
           to="/contact"
           className={`mt-8 inline-flex items-center justify-center h-12 rounded-full font-semibold transition-all ${
             highlight
-              ? "bg-white text-[#0f172a] hover:bg-white/90"
-              : "bg-[#0f172a] text-white hover:bg-[#1e293b]"
+              ? "bg-white text-[#0d1f3c] hover:bg-white/90"
+              : "bg-[#0d1f3c] text-white hover:bg-[#1e293b]"
           }`}
         >
           {cta}

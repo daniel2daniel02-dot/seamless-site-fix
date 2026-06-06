@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-[#e2e8f0]">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 font-bold text-lg text-[#0f172a]">
+        <Link to="/" className="flex items-center gap-2 font-bold text-lg text-[#0d1f3c]">
           <Cloud className="w-6 h-6 text-[#2563eb]" />
           NordPixel
         </Link>
@@ -27,7 +27,7 @@ export default function Navbar() {
               <a
                 key={l.to}
                 href={l.to}
-                className="text-[#0f172a] hover:text-[#2563eb] transition-colors"
+                className="text-[#0d1f3c] hover:text-[#2563eb] transition-colors"
               >
                 {l.label}
               </a>
@@ -37,7 +37,7 @@ export default function Navbar() {
                 to={l.to}
                 end={l.end}
                 className={({ isActive }) =>
-                  `transition-colors ${isActive ? "text-[#2563eb]" : "text-[#0f172a] hover:text-[#2563eb]"}`
+                  `transition-colors ${isActive ? "text-[#2563eb]" : "text-[#0d1f3c] hover:text-[#2563eb]"}`
                 }
               >
                 {l.label}
@@ -46,7 +46,7 @@ export default function Navbar() {
           )}
         </nav>
         <div className="hidden md:flex items-center gap-3">
-          <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-[#e2e8f0] text-xs font-semibold text-[#0f172a]">
+          <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full border border-[#e2e8f0] text-xs font-semibold text-[#0d1f3c]">
             <span className="text-[#2563eb] text-[10px]">PL</span> PL
           </span>
           <Button asChild variant="navy" size="default">
@@ -54,7 +54,7 @@ export default function Navbar() {
           </Button>
         </div>
         <button
-          className="md:hidden text-[#0f172a]"
+          className="md:hidden text-[#0d1f3c]"
           onClick={() => setOpen(!open)}
           aria-label="Menu"
         >
@@ -65,7 +65,7 @@ export default function Navbar() {
         <nav className="md:hidden border-t border-[#e2e8f0] px-4 py-4 flex flex-col gap-4 text-sm font-medium bg-white">
           {links.map((l) =>
             l.hash ? (
-              <a key={l.to} href={l.to} onClick={() => setOpen(false)} className="text-[#0f172a]">
+              <a key={l.to} href={l.to} onClick={() => setOpen(false)} className="text-[#0d1f3c]">
                 {l.label}
               </a>
             ) : (
@@ -74,7 +74,7 @@ export default function Navbar() {
                 to={l.to}
                 end={l.end}
                 onClick={() => setOpen(false)}
-                className={({ isActive }) => (isActive ? "text-[#2563eb]" : "text-[#0f172a]")}
+                className={({ isActive }) => (isActive ? "text-[#2563eb]" : "text-[#0d1f3c]")}
               >
                 {l.label}
               </NavLink>
