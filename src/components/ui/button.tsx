@@ -17,13 +17,13 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         hero:
-          "rounded-full bg-[#0f172a] text-white shadow-[var(--shadow-soft)] hover:bg-[#1e293b]",
+          "rounded-full bg-[#0d1f3c] text-white shadow-[var(--shadow-soft)] hover:bg-[#1e293b]",
         navy:
-          "rounded-full bg-[#1e3a5f] text-white hover:bg-[#0f172a]",
+          "rounded-full bg-[#1e3a5f] text-white hover:bg-[#0d1f3c]",
         gradient:
           "rounded-full text-white font-semibold bg-[image:var(--gradient-cta)] shadow-[var(--shadow-elegant)] hover:opacity-95",
         pill:
-          "rounded-full border border-[#e2e8f0] bg-white text-[#0f172a] hover:bg-[#f1f5fb]",
+          "rounded-full border border-[#e2e8f0] bg-white text-[#0d1f3c] hover:bg-[#f1f5fb]",
       },
       size: {
         default: "h-10 px-5 py-2",
