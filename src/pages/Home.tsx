@@ -37,18 +37,18 @@ export default function Home() {
     <div>
       {/* HERO */}
       <section className="bg-gradient-to-br from-[#e8f0fb] via-[#f1f5fb] to-[#dbeafe]">
-        <div className="container mx-auto px-4 py-20 md:py-28 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="container mx-auto px-4 py-14 sm:py-20 md:py-28 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="inline-block px-4 py-1.5 rounded-full bg-white border border-[#e2e8f0] text-xs font-semibold text-[#2563eb]">
               Twoja strona. Twój sukces.
             </span>
-            <h1 className="mt-6 text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] text-[#0d1c2e]">
+            <h1 className="mt-5 text-[2rem] leading-[1.12] sm:text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight leading-[1.05] text-[#0d1c2e]">
               Profesjonalne strony internetowe dla Twojego biznesu
             </h1>
-            <p className="mt-6 text-lg text-[#64748b] max-w-xl">
+            <p className="mt-5 text-base sm:text-lg text-[#64748b] max-w-xl">
               Tworzymy wizytówki i strony dla restauracji, kawiarni, barów, pomocy drogowej i wielu innych — szybko, przystępnie i z pełnym wsparciem.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
+            <div className="mt-7 flex flex-col sm:flex-row flex-wrap gap-3 [&>*]:w-full sm:[&>*]:w-auto">
               <Button asChild size="lg" variant="gradient">
                 <Link to="/kontakt">Zamów stronę <ArrowRight className="ml-1 w-4 h-4" /></Link>
               </Button>
@@ -56,10 +56,10 @@ export default function Home() {
                 <Link to="/portfolio"><Play className="w-4 h-4" /> Zobacz realizacje</Link>
               </Button>
             </div>
-            <dl className="mt-14 grid grid-cols-3 gap-8 max-w-lg">
-              <div><dt className="text-3xl md:text-4xl font-bold text-[#0d1c2e]">100%</dt><dd className="text-xs text-[#64748b] mt-1">zadowolenia/dopasowania </dd></div>
-              <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">7–14</dt><dd className="text-xs text-[#64748b] mt-1">Dni do uruchomienia</dd></div>
-              <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">100%</dt><dd className="text-xs text-[#64748b] mt-1">Mobile-first</dd></div>
+            <dl className="mt-10 sm:mt-14 grid grid-cols-3 gap-4 sm:gap-8 max-w-lg">
+              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0d1c2e]">100%</dt><dd className="text-[11px] sm:text-xs text-[#64748b] mt-1 leading-snug">zadowolenia/dopasowania </dd></div>
+              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2563eb]">7–14</dt><dd className="text-[11px] sm:text-xs text-[#64748b] mt-1 leading-snug">Dni do uruchomienia</dd></div>
+              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2563eb]">100%</dt><dd className="text-[11px] sm:text-xs text-[#64748b] mt-1 leading-snug">Mobile-first</dd></div>
             </dl>
           </div>
 
@@ -109,11 +109,11 @@ export default function Home() {
       </section>
 
       {/* WHY */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="py-14 sm:py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <p className="eyebrow">Dlaczego NordPixel</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Dlaczego my?</h2>
+            <h2 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Dlaczego my?</h2>
             <p className="mt-4 text-[#64748b]">Cztery powody, dla których warto z nami pracować.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -141,7 +141,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <p className="eyebrow">Proces</p>
-            <h2 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Jak działamy?</h2>
+            <h2 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Jak działamy?</h2>
             <p className="mt-4 text-[#64748b]">Cztery proste kroki do Twojej nowej strony.</p>
           </div>
           <div className="relative grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-4 max-w-5xl mx-auto">
