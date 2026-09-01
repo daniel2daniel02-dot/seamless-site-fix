@@ -63,7 +63,7 @@ export default function Portfolio() {
           {visible.map((p) => (
             <div
               key={p.title}
-              className="rounded-2xl bg-white border border-[#e2e8f0] overflow-hidden shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1"
+              className="rounded-2xl bg-white border border-[#e2e8f0] overflow-hidden shadow-[var(--shadow-card)] hover-lift hover:shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1"
             >
               <div className="h-64 bg-gradient-to-br from-[#e8f0fb] to-[#dbeafe] flex items-center justify-center">
                 <p.Icon className="w-24 h-24 text-[#0d1c2e]" strokeWidth={1.5} />
