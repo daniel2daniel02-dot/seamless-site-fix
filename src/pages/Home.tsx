@@ -57,7 +57,7 @@ export default function Home() {
               </Button>
             </div>
             <dl className="mt-14 grid grid-cols-3 gap-8 max-w-lg">
-              <div><dt className="text-3xl md:text-4xl font-bold text-[#0d1c2e]">50+</dt><dd className="text-xs text-[#64748b] mt-1">Zrealizowanych projektów</dd></div>
+              <div><dt className="text-3xl md:text-4xl font-bold text-[#0d1c2e]">100%</dt><dd className="text-xs text-[#64748b] mt-1">zadowolenia/dopasowania </dd></div>
               <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">7–14</dt><dd className="text-xs text-[#64748b] mt-1">Dni do uruchomienia</dd></div>
               <div><dt className="text-3xl md:text-4xl font-bold text-[#2563eb]">100%</dt><dd className="text-xs text-[#64748b] mt-1">Mobile-first</dd></div>
             </dl>
