@@ -75,10 +75,10 @@ export default function Contact() {
             <h2 className="text-2xl font-bold mb-8">Dane kontaktowe</h2>
             <ul className="space-y-5 text-sm">
               {[
-                { Icon: Mail, label: "kontakt@nordpixel.pl", href: "mailto:kontakt@nordpixel.pl" },
-                { Icon: Phone, label: "+48 600 000 000", href: "tel:+48600000000" },
+                { Icon: Mail, label: "nordpixelcompany@gmail.com", href: "mailto:nordpixelcompany@gmail.com" },
+                { Icon: Phone, label: "+48 532 138 759", href: "tel:+48600000000" },
                 { Icon: MapPin, label: "Polska — obsługujemy zdalnie" },
-                { Icon: Clock, label: "Pn–Pt 9:00–18:00" },
+                { Icon: Clock, label: "Pn–Pt 9:00–17:00" },
               ].map((row, i) => (
                 <li key={i} className="flex items-center gap-4">
                   <span className="w-10 h-10 rounded-lg bg-[#122540] flex items-center justify-center shrink-0">
