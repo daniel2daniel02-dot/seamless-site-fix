@@ -7,7 +7,7 @@ const features = [
   { icon: Zap, title: "Szybka realizacja", desc: "Twoja strona online w 7–14 dni roboczych." },
   { icon: Smartphone, title: "Mobile-first", desc: "Wygląda świetnie na telefonie, tablecie i komputerze." },
   { icon: Search, title: "SEO w standardzie", desc: "Zoptymalizowana, by klienci znajdowali Cię w Google." },
-  { icon: Headphones, title: "Wsparcie 7/7", desc: "Pomagamy także po uruchomieniu strony." },
+  { icon: Headphones, title: "Wsparcie 24/7", desc: "Pomagamy także po uruchomieniu strony." },
 ];
 
 export default function About() {

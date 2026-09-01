@@ -42,7 +42,7 @@ export default function Portfolio() {
         <div className="text-center max-w-2xl mx-auto mb-10">
           <p className="eyebrow">Portfolio</p>
           <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Nasze realizacje</h1>
-          <p className="mt-4 text-[#64748b]">Zobacz wybrane projekty, które zrealizowaliśmy dla naszych klientów.</p>
+          <p className="mt-4 text-[#64748b]">Zobacz przykładowe realizacje.</p>
         </div>
         <div className="flex justify-center gap-3 mb-10 flex-wrap">
           {filters.map((f) => (
@@ -72,7 +72,7 @@ export default function Portfolio() {
                 <span className="inline-block px-3 py-1 rounded-full bg-[#e8f0fb] text-[#2563eb] text-xs font-semibold">
                   {p.tag}
                 </span>
-                <h3 className="mt-3 text-xl font-bold text-[#0d1c2e]">{p.title}</h3>
+                <h3 className="mt-3 text-xl font-bold text-[#0d1c2e] flex items-center gap-2"><p.Icon className="w-5 h-5 text-[#2563eb]" />{p.title}</h3>
                 <p className="text-sm text-[#64748b] mt-2">{p.desc}</p>
                 <a
                   href={p.href}
