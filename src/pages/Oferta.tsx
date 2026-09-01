@@ -15,7 +15,7 @@ export default function Oferta() {
           <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Nasza oferta</h1>
           <p className="mt-4 text-[#64748b]">Przejrzyste pakiety dopasowane do Twoich potrzeb.</p>
         </div>
-        <div className="grid md:grid-cols-3 gap-6 items-start max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 items-start max-w-7xl mx-auto">
           <PriceCard
             tag="JEDNORAZOWO"
             title="Strona internetowa"
@@ -24,7 +24,20 @@ export default function Oferta() {
               "Projekt graficzny",
               "Responsywność (mobile/tablet/desktop)",
               "Optymalizacja SEO",
-              "Mapa Google Maps",
+              "Certyfikat SSL",
+              "Czas realizacji 7–14 dni",
+            ]}
+            cta="Zamów teraz"
+          />
+          <PriceCard
+            tag="JEDNORAZOWO"
+            title="Strona z podstronami"
+            price="1199 zł"
+            features={[
+              "Projekt graficzny",
+              "Responsywność (mobile/tablet/desktop)",
+              "Optymalizacja SEO",
+              "Do 5 podstron",
               "Certyfikat SSL",
               "Czas realizacji 7–14 dni",
             ]}
@@ -33,14 +46,14 @@ export default function Oferta() {
           <PriceCard
             tag="PRZY ZAKUPIE STRONY OD NAS"
             title="Hosting + Domena + Wsparcie"
-            price="49 zł"
+            price="89 zł"
             period="/ miesiąc"
             badge="NAJPOPULARNIEJSZY"
             features={[
               "Hosting strony",
               "Własna domena",
               "Certyfikat SSL w cenie",
-              "Pomoc techniczna 7 dni w tygodniu",
+              "Pomoc techniczna 24/7",
               "Aktualizacje treści w ciągu 72h",
               "Monitoring dostępności strony",
             ]}
@@ -50,13 +63,13 @@ export default function Oferta() {
           <PriceCard
             tag="DLA WŁASNEJ STRONY"
             title="Hosting + Domena + Wsparcie"
-            price="69 zł"
+            price="137,5 zł"
             period="/ miesiąc"
             features={[
               "Hosting strony",
               "Własna domena",
               "Certyfikat SSL w cenie",
-              "Pomoc techniczna 7 dni w tygodniu",
+              "Pomoc techniczna 24/7",
               "Aktualizacje treści w ciągu 72h",
               "Monitoring dostępności strony",
             ]}
