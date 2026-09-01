@@ -37,11 +37,11 @@ export default function Portfolio() {
   const visible = portfolio.filter((p) => filter === "all" || p.cat === filter);
 
   return (
-    <section className="py-20 md:py-28 bg-white">
+    <section className="py-14 sm:py-20 md:py-28 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-10">
           <p className="eyebrow">Portfolio</p>
-          <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Nasze realizacje</h1>
+          <h1 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Nasze realizacje</h1>
           <p className="mt-4 text-[#64748b]">Zobacz przykładowe realizacje.</p>
         </div>
         <div className="flex justify-center gap-3 mb-10 flex-wrap">

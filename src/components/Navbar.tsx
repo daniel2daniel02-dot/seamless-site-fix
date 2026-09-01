@@ -44,27 +44,32 @@ export default function Navbar() {
           </Button>
         </div>
         <button
-          className="md:hidden text-[#0d1c2e]"
+          className="md:hidden -mr-2 p-2 rounded-lg text-[#0d1c2e] hover:bg-[#f1f5fb] transition-colors"
           onClick={() => setOpen(!open)}
           aria-label="Menu"
+          aria-expanded={open}
         >
           {open ? <X /> : <Menu />}
         </button>
       </div>
       {open && (
-        <nav className="md:hidden border-t border-[#e2e8f0] px-4 py-4 flex flex-col gap-4 text-sm font-medium bg-white">
+        <nav className="md:hidden border-t border-[#e2e8f0] px-4 py-2 flex flex-col text-base font-medium bg-white max-h-[calc(100dvh-4rem)] overflow-y-auto">
           {links.map((l) => (
             <NavLink
               key={l.to}
               to={l.to}
               end={l.end}
               onClick={() => setOpen(false)}
-              className={({ isActive }) => (isActive ? "text-[#2563eb]" : "text-[#0d1c2e]")}
+              className={({ isActive }) =>
+                `py-3 border-b border-[#f1f5fb] transition-colors ${
+                  isActive ? "text-[#2563eb]" : "text-[#0d1c2e] hover:text-[#2563eb]"
+                }`
+              }
             >
               {l.label}
             </NavLink>
           ))}
-          <Button asChild variant="navy">
+          <Button asChild variant="navy" className="my-4 w-full">
             <Link to="/kontakt" onClick={() => setOpen(false)}>
               Bezpłatna wycena
             </Link>

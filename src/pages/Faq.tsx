@@ -19,11 +19,11 @@ export default function Faq() {
   }, []);
 
   return (
-    <section className="py-20 md:py-28 bg-[#f1f5fb]">
+    <section className="py-14 sm:py-20 md:py-28 bg-[#f1f5fb]">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-12">
           <p className="eyebrow">FAQ</p>
-          <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Najczęściej zadawane pytania</h1>
+          <h1 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Najczęściej zadawane pytania</h1>
           <p className="mt-4 text-[#64748b]">Masz pytanie? Pewnie znajdziesz tu odpowiedź.</p>
         </div>
         <div className="space-y-3">

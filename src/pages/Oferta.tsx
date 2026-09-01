@@ -8,11 +8,11 @@ export default function Oferta() {
   }, []);
 
   return (
-    <section className="py-20 md:py-28 bg-white">
+    <section className="py-14 sm:py-20 md:py-28 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <p className="eyebrow">Cennik</p>
-          <h1 className="mt-3 text-4xl md:text-5xl font-bold text-[#0d1c2e]">Nasza oferta</h1>
+          <h1 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Nasza oferta</h1>
           <p className="mt-4 text-[#64748b]">Przejrzyste pakiety dopasowane do Twoich potrzeb.</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 items-start max-w-7xl mx-auto">
