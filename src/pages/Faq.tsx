@@ -32,7 +32,7 @@ export default function Faq() {
             return (
               <div
                 key={i}
-                className="bg-white rounded-2xl shadow-[var(--shadow-card)] border border-[#e2e8f0] overflow-hidden"
+                className="bg-white rounded-2xl shadow-[var(--shadow-card)] hover-lift border border-[#e2e8f0] overflow-hidden"
               >
                 <button
                   onClick={() => setOpenFaq(isOpen ? null : i)}

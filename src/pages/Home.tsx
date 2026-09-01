@@ -65,7 +65,7 @@ export default function Home() {
 
           {/* Right column: phone + browser illustration */}
           <div className="relative hidden lg:block h-[520px]">
-            <div className="absolute top-4 right-4 z-20 bg-white rounded-2xl px-5 py-3 shadow-[var(--shadow-elegant)] border border-[#e2e8f0]">
+            <div className="animate-float absolute top-4 right-4 z-20 bg-white rounded-2xl px-5 py-3 shadow-[var(--shadow-elegant)] border border-[#e2e8f0]">
               <p className="text-[10px] font-bold uppercase tracking-widest text-[#2563eb]">Lighthouse</p>
               <p className="text-3xl font-bold text-[#0d1c2e]">98<span className="text-sm text-[#64748b]">/100</span></p>
             </div>
@@ -120,7 +120,7 @@ export default function Home() {
             {features.map((f) => (
               <div
                 key={f.title}
-                className="p-6 rounded-2xl bg-white border border-[#e2e8f0] shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1"
+                className="p-6 rounded-2xl bg-white border border-[#e2e8f0] shadow-[var(--shadow-card)] hover-lift hover:shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1"
               >
                 <div
                   className="w-12 h-12 rounded-xl flex items-center justify-center mb-5"

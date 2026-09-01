@@ -113,7 +113,7 @@ function PriceCard({
         className={`p-8 rounded-2xl flex flex-col h-full ${
           highlight
             ? "bg-[#0d1c2e] text-white border border-[#0d1c2e] shadow-[var(--shadow-elegant)] md:scale-[1.03]"
-            : "bg-white border border-[#e2e8f0] shadow-[var(--shadow-card)]"
+            : "bg-white border border-[#e2e8f0] shadow-[var(--shadow-card)] hover-lift"
         }`}
       >
         <span
