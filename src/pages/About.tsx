@@ -16,10 +16,10 @@ export default function About() {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-20 md:py-28">
+    <div className="container mx-auto px-4 py-14 sm:py-20 md:py-28">
       <div className="max-w-3xl mx-auto text-center mb-14">
         <Badge variant="secondary" className="mb-4">O NordPixel</Badge>
-        <h1 className="text-4xl md:text-5xl font-bold">Tworzymy strony, które pracują na Twój sukces</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">Tworzymy strony, które pracują na Twój sukces</h1>
         <p className="mt-4 text-lg text-muted-foreground">
           Jesteśmy zespołem projektantów i programistów, który pomaga małym i średnim firmom zaistnieć w internecie. Specjalizujemy się w stronach dla restauracji, kawiarni, barów oraz lokalnych usług.
         </p>

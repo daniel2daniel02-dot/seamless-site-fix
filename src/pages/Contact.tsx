@@ -60,10 +60,10 @@ export default function Contact() {
 
   return (
     <section className="bg-[#0d1c2e] text-white">
-      <div className="container mx-auto px-4 py-20 md:py-28">
+      <div className="container mx-auto px-4 py-14 sm:py-20 md:py-28">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#38bdf8]">Kontakt</p>
-          <h1 className="mt-3 text-4xl md:text-5xl font-bold">Kontakt / Bezpłatna wycena</h1>
+          <h1 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold">Kontakt / Bezpłatna wycena</h1>
           <p className="mt-4 text-white/70">
             Opowiedz nam o swoim biznesie — wrócimy do Ciebie w 24 godziny.
           </p>

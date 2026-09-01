@@ -37,7 +37,7 @@ export default function Home() {
     <div>
       {/* HERO */}
       <section className="bg-gradient-to-br from-[#e8f0fb] via-[#f1f5fb] to-[#dbeafe]">
-        <div className="container mx-auto px-4 py-14 sm:py-20 md:py-28 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="container mx-auto px-4 py-14 sm:py-14 sm:py-20 md:py-28 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="inline-block px-4 py-1.5 rounded-full bg-white border border-[#e2e8f0] text-xs font-semibold text-[#2563eb]">
               Twoja strona. Twój sukces.
@@ -109,11 +109,11 @@ export default function Home() {
       </section>
 
       {/* WHY */}
-      <section className="py-14 sm:py-20 md:py-28 bg-white">
+      <section className="py-14 sm:py-14 sm:py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-14">
             <p className="eyebrow">Dlaczego NordPixel</p>
-            <h2 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Dlaczego my?</h2>
+            <h2 className="mt-3 text-3xl sm:text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Dlaczego my?</h2>
             <p className="mt-4 text-[#64748b]">Cztery powody, dla których warto z nami pracować.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -137,11 +137,11 @@ export default function Home() {
       </section>
 
       {/* PROCESS */}
-      <section className="py-20 md:py-28 bg-[#f1f5fb]">
+      <section className="py-14 sm:py-20 md:py-28 bg-[#f1f5fb]">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <p className="eyebrow">Proces</p>
-            <h2 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Jak działamy?</h2>
+            <h2 className="mt-3 text-3xl sm:text-3xl sm:text-4xl md:text-5xl font-bold text-[#0d1c2e]">Jak działamy?</h2>
             <p className="mt-4 text-[#64748b]">Cztery proste kroki do Twojej nowej strony.</p>
           </div>
           <div className="relative grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-4 max-w-5xl mx-auto">
