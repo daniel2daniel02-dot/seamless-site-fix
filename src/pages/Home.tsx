@@ -57,9 +57,9 @@ export default function Home() {
               </Button>
             </div>
             <dl className="mt-10 sm:mt-14 grid grid-cols-3 gap-4 sm:gap-8 max-w-lg">
-              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0d1c2e]">100%</dt><dd className="text-[11px] sm:text-xs text-[#64748b] mt-1 leading-snug">zadowolenia/dopasowania </dd></div>
-              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2563eb]">7–14</dt><dd className="text-[11px] sm:text-xs text-[#64748b] mt-1 leading-snug">Dni do uruchomienia</dd></div>
-              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2563eb]">100%</dt><dd className="text-[11px] sm:text-xs text-[#64748b] mt-1 leading-snug">Mobile-first</dd></div>
+              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0d1c2e]">100%</dt><dd className="text-[10px] sm:text-xs text-[#64748b] mt-1 leading-snug break-words">zadowolenia/dopasowania </dd></div>
+              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2563eb]">7–14</dt><dd className="text-[10px] sm:text-xs text-[#64748b] mt-1 leading-snug break-words">Dni do uruchomienia</dd></div>
+              <div><dt className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#2563eb]">100%</dt><dd className="text-[10px] sm:text-xs text-[#64748b] mt-1 leading-snug break-words">Mobile-first</dd></div>
             </dl>
           </div>
 
